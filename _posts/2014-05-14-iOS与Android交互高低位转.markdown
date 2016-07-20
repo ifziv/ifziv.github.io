@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "iOS与Android交互高低位转"
-date:   2016-07-19 05:00:01 -0701
+date:   2014-05-14 14:45:01 -0701
 comments: true
 categories: iOS
 ---
 
 
+
+应用背景，iOS发送给Android一个二进制文件。Android进行文件解析时值异常。
 
 在与Android交互过程中，因为Android是从低位往高位读，iOS是从高位往低位读，所以交互数据需要进行转换。
 
