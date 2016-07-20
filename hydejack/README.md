@@ -41,8 +41,9 @@ You can configure important aspects of the theme via [`_config.yml`](https://git
 In the manifest of a blog post, simply add an url as `image` and a CSS color as `color`:
 
 ~~~yml
-title: Introducing ifziv
-image: /public/img/hyde.jpg
+layout: post
+title: Introducing Hydejack
+image: http://qwtel.com/hydejack/public/img/hyde.jpg
 color: '#949667'
 ~~~
 
