@@ -14,17 +14,18 @@ categories: iOS
 首先  [[NSDate date] timeIntervalSince1970] 是可以获取到后面的毫秒 微秒的 ，只是在保存的时候省略掉了， 如一个时间戳不省略的情况下为 1395399556.862046 ，省略掉后为一般所见 1395399556 。所以想取得毫秒时用获取到的时间戳 *1000 ，想取得微秒时 用取到的时间戳 * 1000 * 1000 。
 
 获取方法：
+
 >objc code
->
 >UInt64 recordTime = [[NSDate date] timeIntervalSince1970]*1000;  
-> 
+>
 >  
 
 如果你想格式化输出 可以： 
+
 >objc code
 >e.g.
 >  
-> NSDateFormatter * formatter = [[NSDateFormatter alloc ] init];    
+>NSDateFormatter * formatter = [[NSDateFormatter alloc ] init];    
 >[formatter setDateFormat:@"YYYY-MM-dd hh:mm:ss:SSS"];      
 >NSString *date =  [formatter stringFromDate:[NSDate date]];    
 >NSString *timeLocal = [[NSString alloc] initWithFormat:@"%@", date];   
