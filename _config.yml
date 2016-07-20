@@ -1,5 +1,5 @@
 # Site settings
-title: Your awesome title
+title: ifziv
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -8,13 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 description: One sentence introducing yourself or what you do
 
 # Social icons
-facebook: username
-linkedin: username
+#facebook: username
+#linkedin: username
 github: username
-deviantart: username
-codepen: username
+email: username
+#deviantart: username
+#codepen: username
 
-footer: © Taken theme
+footer: © ifziv
 
 # Build settings
 markdown: kramdown
