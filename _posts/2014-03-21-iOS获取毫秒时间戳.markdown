@@ -16,6 +16,7 @@ categories: iOS
 获取方法：
 
 >objc code
+>
 >UInt64 recordTime = [[NSDate date] timeIntervalSince1970]*1000;  
 >
 >  
@@ -23,6 +24,7 @@ categories: iOS
 如果你想格式化输出 可以： 
 
 >objc code
+>
 >e.g.
 >  
 >NSDateFormatter * formatter = [[NSDateFormatter alloc ] init];    
