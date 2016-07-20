@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "smart home"
-date:   2016-06-07 22:02:01 -0500
+date:   2016-06-07 22:02:01 -0600
 comments: true
 categories: jekyll
 ---
