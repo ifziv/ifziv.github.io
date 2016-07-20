@@ -3,7 +3,7 @@ markdown: redcarpet
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
-description:     Jekyll theme for Programmers
+description:     ifziv's blog
 intro: hand in hand.
 logo:             logo.png
 disqus_shortname:
