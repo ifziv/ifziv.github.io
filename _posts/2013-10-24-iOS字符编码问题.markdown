@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "iOS字符编码问题"
+date:   2013-10-24 11:06:01 -706
+comments: true
+categories: iOS
+---
+
+
+
+iOS在控制台打印的时候，经常出现 %B1%B1%BE%A9 这样的现象。
+其实这只是因为字符编码的问题，Xcode默认的中文是UTF-8，而服务器有时候返回的是GB2312或者GB18030的时候，这种问题就容易出现了。
+
+比如下面的例子：
+
+>objc code
+>
+>e.g.
+>
+>NSString *astr = [[NSString alloc] initWithUTF8String:cstr];
+>NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
+>NSString *str1 = [astr stringByAddingPercentEscapesUsingEncoding:enc];
+>NSLog(@" reStr %@",str1);
+>
+>
+>//或者
+>
+>NSString *astr = @"北京";
+>NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
+>NSString *str1 = [astr stringByAddingPercentEscapesUsingEncoding:enc];
+>NSLog(@" reStr %@",str1);
+>
+>
+
+
+转换后为： 
+>
+>%B1%B1%BE%A9
+>
+
+
+
+
+
