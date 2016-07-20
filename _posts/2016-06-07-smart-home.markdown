@@ -3,12 +3,12 @@ layout: post
 title:  "smart home"
 date:   2016-06-07 22:02:01 -0600
 comments: true
-categories: iOS
+categories: Android
 ---
 
-Morbi ultrices libero imperdiet [lectus](#) dignissim, sit amet bibendum nisl consectetur. Morbi erat purus, pretium at ligula tincidunt, faucibus commodo sem. Etiam vel porttitor est, vitae maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien turpis, cursus non porta ac.
+这是一个测试文件，用于测试个人博客的功能。
 
-## Lorem
+## 测试
 Quisque sodales euismod nibh, gravida venenatis nibh dignissim eget. Morbi gravida enim vel lectus aliquet aliquet.
 
 ### Ipsum
