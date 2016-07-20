@@ -1,11 +1,11 @@
 # Site settings
-title: ifziv
+title: ifziv's blog
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: On the road..
 
 # Social icons
 #facebook: username
