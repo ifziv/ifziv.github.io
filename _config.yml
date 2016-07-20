@@ -5,12 +5,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: ifzv, on the road..
+description: Learn from yesterday, live for today, hope for tomorrow.
 
 # Social icons
 #facebook: username
 #linkedin: username
-github: username
+github: ifziv
 email: username
 #deviantart: username
 #codepen: username
