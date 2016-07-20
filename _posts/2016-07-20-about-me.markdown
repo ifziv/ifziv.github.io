@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "关 于"
+date:   2016-07-20 13:59:01 -0700
+comments: true
+categories: Other
+---
+
+
+这是ifziv的个人博客，在路上所见所闻所思所想。
+
+### E-mail
+如果你想联系我，可以给我发邮件，下方为我的邮箱地址。
+d29vdmlvbkBnbWFpbC5jb20    (base64)
+
+
