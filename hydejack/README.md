@@ -1,6 +1,7 @@
 # Hydejack
 
-Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com) theme, stolen by [`@qwtel`](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com). You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+在路上..
+##Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com) theme, stolen by [`@qwtel`](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com). You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
 
 ## Features
 Unlike Hyde, it's opinionated about how you are going to use it (as a blog!)
@@ -42,8 +43,8 @@ In the manifest of a blog post, simply add an url as `image` and a CSS color as 
 
 ~~~yml
 layout: post
-title: Introducing Hydejack
-image: http://qwtel.com/hydejack/public/img/hyde.jpg
+title: ifziv
+image: `/public/img/hyde.jpg`
 color: '#949667'
 ~~~
 
