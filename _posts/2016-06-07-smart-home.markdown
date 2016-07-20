@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Example content"
-date:   2016-05-12 22:02:01 -0500
+title:  "smart home"
+date:   2016-06-07 22:02:01 -0500
 comments: true
 categories: jekyll
 ---
