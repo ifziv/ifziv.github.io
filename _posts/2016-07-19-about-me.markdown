@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "关 于"
-date:   2016-07-20 01:00:01 -0700
+title:  "About me"
+date:   2016-07-19 01:00:01 -0700
 comments: true
 categories: Other
 ---
