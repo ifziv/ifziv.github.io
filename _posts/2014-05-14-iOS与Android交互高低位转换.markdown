@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iOS与Android交互高低位转"
+title:  "iOS与Android交互高低位转换"
 date:   2014-05-14 14:45:01 -0701
 comments: true
 categories: iOS
